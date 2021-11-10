@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Problem 1</title>
+</head>
+
+<h1>Daniel's Phone Directory</h1>
+
+<body>
+	<div id="phoneDirectory">
+		<div id= "inputBox">
+			<input type="text" id="contactName" name="Contact Name" placeholder="Contact Name">
+			<input type="text" id="mobileNumber" name="Mobile Number" placeholder= "Mobile Number">
+			<input type="text" id="email" name="Email" placeholder="Email">
+			<button id="addContactBtn">Add Contact</button>	
+			<br>
+			<div id="errorMessage">
+				<h6 id="validationErrorMessage">validationErrorMessage message goes here</h6>
+			</div>
+		</div>
+
+
+		<div id="searchDiv">
+			<h3 id="searchLabelText">
+				Search contact by Mobile No:
+			</h3>
+			<input autocomplete="off" type="search" id="searchBox" name="searchBox">
+			<div id="errorMessage">
+				<h6 id="searchErrorMessage">searchErrorMessage message goes here</h6>
+			</div>
+
+		</div>
+	</div>
+
+	<div id="contactList">
+		<h1>Contacts</h1>
+		<table id="contactTable">
+			<tr>
+			  <th>Name</th>
+			  <th>Number</th>
+			  <th>Email</th>
+			</tr>
+			<tr>
+			  <td>Peter</td>
+			  <td>1334567890</td>
+			  <td>peter@gmail.com</td>
+			</tr>
+			<tr>
+			  <td>Lois</td>
+			  <td>2347878901</td>
+			  <td>lois@gmail.com</td>
+			</tr>
+		  </table>
+
+	</div>
+</body>
+<footer>
+	<link href="Style.css" rel="stylesheet" type="text/css">
+	<script src = "script.js" type = "text/javascript"/></script>	
+</footer>
+</html>
